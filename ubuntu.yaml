@@ -1,0 +1,6 @@
+version: '3'
+services:
+  wordpress3:
+    image: apache
+    restart: unless-stopped
+    tty: true
